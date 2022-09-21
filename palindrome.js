@@ -1,4 +1,15 @@
-// Q. Check if given string is palindrome or not.
+// check palindrome number
+let str="vikas";
 
+let bag="";
 
-let str ="vikas";
+for(i=str.length-1;i>=0;i--){
+    bag=bag+str[i];
+}
+
+if(bag===str){
+    console.log("Yes");
+}
+else{
+    console.log("No");
+}
